@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录 - 旧衣物回收平台</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <h1>绿收衣舍</h1>
+                <p>智能回收</p>
+            </div>
+            <div class="nav-links">
+                <a href="LVYS.html">首页</a>
+                <a href="LVYS.html#about">关于我们</a>
+                <a href="LVYS.html#process">投递流程</a>
+                <a href="LVYS.html#points">投递记分</a>
+                <a href="LVYS.html#carbon">碳足迹查询</a>
+                <a href="LVYS.html#gifts">礼品兑换</a>
+                <a href="LVYS.html#contact">联系我们</a>
+                <a href="login.html" class="active">登录</a>
+                <a href="register.html" class="btn btn-primary">注册</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 登录表单 -->
+    <div class="auth-container">
+        <div class="auth-form">
+            <h2>用户登录</h2>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="email">邮箱</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">密码</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit" class="form-button">登录</button>
+                <div class="auth-link">
+                    <p>还没有账号？<a href="register.html">立即注册</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>绿收衣舍</h3>
+                    <p>让旧衣物焕发新生</p>
+                </div>
+                <div class="footer-links">
+                    <a href="LVYS.html">首页</a>
+                    <a href="LVYS.html#about">关于我们</a>
+                    <a href="LVYS.html#process">投递流程</a>
+                    <a href="LVYS.html#points">投递记分</a>
+                    <a href="LVYS.html#carbon">碳足迹查询</a>
+                    <a href="LVYS.html#gifts">礼品兑换</a>
+                    <a href="LVYS.html#contact">联系我们</a>
+                    <a href="login.html">登录</a>
+                    <a href="register.html">注册</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 绿收衣舍旧衣物回收平台. 保留所有权利.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
